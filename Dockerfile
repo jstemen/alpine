@@ -1,6 +1,7 @@
 FROM alpine:edge
 MAINTAINER Thomas Boerger <thomas@webhippie.de>
 
+ADD VERSION .
 ADD rootfs /
 
 RUN apk update && \
